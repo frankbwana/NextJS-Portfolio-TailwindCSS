@@ -32,3 +32,48 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+******
+<ProjectItem title='Sidebar Nav'
+               backgroundImg={Project1}
+               projectUrl='/portfolio1'
+              />
+              <ProjectItem title='Personal Portfolio using React'
+               backgroundImg={Project2}
+               projectUrl='/portfolio1'
+              />
+              <ProjectItem title='Personal Portfolio using NextJs'
+               backgroundImg= {Project3}
+               projectUrl='/portfolio1'
+              />
+              <ProjectItem title='E-Commerce Website'
+               backgroundImg={Project4}
+               projectUrl='/portfolio1'
+              />
+              <ProjectItem title='Social Media Clone'
+               backgroundImg={Project5}
+               projectUrl='/portfolio1'
+              />
+              <ProjectItem title='MERN-Auth'
+               backgroundImg={Project6}
+               projectUrl='/portfolio1'
+              />
+********
+ <div className=' relative flex items-center justify-center h-auto w-full rounded-xl p-4 group hover:bg-slate-500'>
+                <Image className=' rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/' />
+                <div className=' hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                    <h3 className=' text-2xl text-white tracking-wider text-center'>{title}</h3>
+                    <p className=' pt-2 pb-4 text-white'>React JS</p>
+                    <Link href={ProjectUrl}>
+                        <p className=' text-center py-3 rounded-lg bg-white font-bold text-lg cursor-pointer'>More Info</p>
+                    </Link>
+                </div>
+              </div>
+  )
+  *******
+  import Project2 from '../../public/assets/portfolio2.jpg'
+import Project3 from '../../public/assets/portfolio3.jpg'
+import Project4 from '../../public/assets/portfolio4.jpg'
+import Project5 from '../../public/assets/portfolio5.jpg'
+import Project6 from '../../public/assets/portfolio6.jpg'
