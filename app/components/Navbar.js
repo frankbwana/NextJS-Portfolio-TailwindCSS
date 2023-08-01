@@ -20,7 +20,7 @@ const Navbar = () => {
            <div>
             <ul className='hidden md:flex'>
               <Link href='/'>
-                <li className=' ml-10 text-sm uppercase hover:border-b-lime-950'>Home</li>
+                <li className=' ml-10 text-sm uppercase hover:border-b'>Home</li>
               </Link>
               <Link href='/#about'>
                 <li className=' ml-10 text-sm uppercase hover:border-b'>About</li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <li className=' ml-10 text-sm uppercase hover:border-b'>Projects</li>
               </Link>
               <Link href='/#contacts'>
-                <li className=' mx-10 text-sm uppercase hover: border-b'>Contacts</li>
+                <li className=' mx-10 text-sm uppercase hover:border-b'>Contacts</li>
               </Link>
             </ul>
             <div onClick={handleNav} className=' md:hidden'>
@@ -57,37 +57,37 @@ const Navbar = () => {
              <div className=' py-4 flex flex-col'>
               <ul className=' uppercase'>
                 <Link href='/'>
-                <li className=' py-4 text-sm '>Home</li>
+                <li className=' py-4 text-sm hover:bg-slate-400 hover:text-white' onClick={handleNav}>Home</li>
                 </Link>
                 <Link href='/#about'>
-                <li className=' py-4 text-sm '>About</li>
+                <li className=' py-4 text-sm  hover:bg-slate-400 hover:text-white' onClick={handleNav}>About</li>
                 </Link>
                 <Link href='/#skills'>
-                <li className=' py-4 text-sm '>Skills</li>
+                <li className=' py-4 text-sm  hover:bg-slate-400 hover:text-white ' onClick={handleNav}>Skills</li>
                 </Link>
                 <Link href='/#projects'>
-                <li className=' py-4 text-sm '>Projects</li>
+                <li className=' py-4 text-sm  hover:bg-slate-400 hover:text-white' onClick={handleNav}>Projects</li>
                 </Link>
                 <Link href='/#contacts'>
-                <li className=' py-4 text-sm '>Contacts</li>
+                <li className=' py-4 text-sm  hover:bg-slate-400 hover:text-white ' onClick={handleNav}>Contacts</li>
                 </Link>
               </ul>
               <div className=' pt-4'>
                  <p className=' uppercase tracking-widest'>Let's Connect</p>
                  <div className=' flex items-center justify-between my-4 w-full sm:w-[80%]'>
                  <a href='https://www.linkedin.com/in/franklin-bwana-501426b4/' 
-                 className=' p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                 className=' p-3 cursor-pointer bg-slate-400 rounded-xl hover:scale-105 hover:ease-in duration-300 hover:text-white'>
                   <FaLinkedin />
                  </a>
                  <a href='https://www.upwork.com/freelancers/~012524736deea7052c' 
-                 className=' p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                 className=' p-3 cursor-pointer bg-slate-400 rounded-xl hover:scale-105 hover:ease-in duration-300 hover:text-white'>
                   <SiUpwork />
                  </a>
                  <a href='https://github.com/frankbwana' 
-                 className=' p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                 className=' p-3 cursor-pointer bg-slate-400 rounded-xl hover:scale-105 hover:ease-in duration-300 hover:text-white'>
                   <AiOutlineGithub />
                  </a>
-                 <a href='' className=' p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                 <a href='' className=' p-3 cursor-pointer bg-slate-400 rounded-xl hover:scale-105 hover:ease-in duration-300 hover:text-white'>
                   <AiOutlineMail />
                  </a>
                  </div>
