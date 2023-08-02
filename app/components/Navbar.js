@@ -20,19 +20,19 @@ const Navbar = () => {
            <div>
             <ul className='hidden md:flex'>
               <Link href='/'>
-                <li className=' ml-10 text-sm uppercase hover:border-b'>Home</li>
+                <li className=' ml-10 text-sm uppercase hover:border-b border-black'>Home</li>
               </Link>
               <Link href='/#about'>
-                <li className=' ml-10 text-sm uppercase hover:border-b'>About</li>
+                <li className=' ml-10 text-sm uppercase hover:border-b border-black'>About</li>
               </Link>
               <Link href='/#skills'>
-                <li className=' ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                <li className=' ml-10 text-sm uppercase hover:border-b border-black'>Skills</li>
               </Link>
               <Link href='/#projects'>
-                <li className=' ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                <li className=' ml-10 text-sm uppercase hover:border-b border-black'>Projects</li>
               </Link>
               <Link href='/#contacts'>
-                <li className=' mx-10 text-sm uppercase hover:border-b'>Contacts</li>
+                <li className=' mx-10 text-sm uppercase hover:border-b border-black'>Contacts</li>
               </Link>
             </ul>
             <div onClick={handleNav} className=' md:hidden'>
