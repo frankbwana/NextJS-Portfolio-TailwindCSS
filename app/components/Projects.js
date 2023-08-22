@@ -18,7 +18,7 @@ const Projects = () => {
             <div className=' grid md:grid-cols-2 gap-8'>
 
            <ProjectItem 
-            title='Sidebar Nav'
+            title='Food-App-NextJS'
             backgroundImg={Project1}
             projectUrl='/portfolio1'
             />
@@ -28,7 +28,7 @@ const Projects = () => {
             projectUrl='/portfolio1'
             />
            <ProjectItem 
-            title='React-Portfolio-CSS'
+            title='E-Commerce-NextJS'
             backgroundImg={Project3}
             projectUrl='/portfolio1'
             />

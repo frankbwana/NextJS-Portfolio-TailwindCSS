@@ -52,20 +52,20 @@ const Contacts = () => {
                   <div className=' grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className=' flex flex-col'>
                       <label className=' uppercase text-sm py-2'>Name</label>
-                      <input className=' border-2 rounded-lg border-gray-500 p-3' type='text'></input>
+                      <input className=' border-2 rounded-lg border-gray-500 p-3' type='text' placeholder='Enter your name'></input>
                     </div>
                     <div className=' flex flex-col'>
                       <label className=' uppercase text-sm py-2'>Phone Number</label>
-                      <input className=' border-2 rounded-lg border-gray-500 p-3' type='text'></input>
+                      <input className=' border-2 rounded-lg border-gray-500 p-3' type='text' placeholder='Enter your phone number'></input>
                     </div>
                   </div>
                   <div className=' flex flex-col py-2'>
                   <label className=' uppercase text-sm py-2'>Email</label>
-                  <input className=' border-2 rounded-lg border-gray-500 p-3' type='email'></input>
+                  <input className=' border-2 rounded-lg border-gray-500 p-3' type='email' placeholder='Enter your email address'></input>
                   </div>
                   <div className=' flex flex-col py-2'>
                   <label className=' uppercase text-sm py-2'>Message</label>
-                  <textarea className='border-2 rounded-lg border-gray-500 p-3' rows='6'></textarea>
+                  <textarea className='border-2 rounded-lg border-gray-500 p-3' rows='6' placeholder='Type your message'></textarea>
                   </div>
                   <button className=' w-full p-3 bg-blue-500 text-lg text-white'>Send Message</button>
                  </form>
