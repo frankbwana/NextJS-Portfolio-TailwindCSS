@@ -5,8 +5,8 @@ const Skills = () => {
   return (
     <div className=' w-full' id='skills'>
       <div className=' max-w-[1240px] mx-auto px-2 py-16'>
-        <p className=' text-xl tracking-widest uppercase text-blue-400'>Skills</p>
-        <h2 className=' flex justify-center py-4'>My Skills</h2>
+        <p className=' text-2xl tracking-widest uppercase text-blue-500'>Skills</p>
+        <h2 className=' py-4'>My Skills</h2>
         <div className=' grid md:grid-cols-2 gap-8'>
           <div className=' bg-slate-400 border-blue-500 border-2 rounded-2xl hover:bg-transparent py-2'>
             <h3 className=' flex justify-center py-12'>Frontend Skills</h3>

@@ -10,7 +10,7 @@ const Contacts = () => {
   return (
     <div className=' w-full lg:h-screen' id='contacts'>
         <div className=' max-w-[1240px] m-auto px-2 py-8 w-full'>
-            <p className=' text-xl tracking-widest uppercase text-blue-400'>Contacts</p>
+            <p className=' text-2xl tracking-widest uppercase text-blue-500'>Contacts</p>
             <h2 className=' py-4'>Get in Touch</h2>
              <div className=' grid lg:grid-cols-5 gap-8'>
               <div className=' col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-500 rounded-xl p-4'>
@@ -52,7 +52,7 @@ const Contacts = () => {
                   <div className=' grid md:grid-cols-2 gap-4 w-full py-2'>
                     <div className=' flex flex-col'>
                       <label className=' uppercase text-sm py-2'>Name</label>
-                      <input className=' border-2 rounded-lg border-gray-500 p-3' type='text' placeholder='Enter your name'></input>
+                      <input className=' border-2 rounded-lg border-gray-500 p-3' type='text' placeholder='Enter your name' required></input>
                     </div>
                     <div className=' flex flex-col'>
                       <label className=' uppercase text-sm py-2'>Phone Number</label>
@@ -61,11 +61,11 @@ const Contacts = () => {
                   </div>
                   <div className=' flex flex-col py-2'>
                   <label className=' uppercase text-sm py-2'>Email</label>
-                  <input className=' border-2 rounded-lg border-gray-500 p-3' type='email' placeholder='Enter your email address'></input>
+                  <input className=' border-2 rounded-lg border-gray-500 p-3' type='email' placeholder='Enter your email address' required></input>
                   </div>
                   <div className=' flex flex-col py-2'>
                   <label className=' uppercase text-sm py-2'>Message</label>
-                  <textarea className='border-2 rounded-lg border-gray-500 p-3' rows='6' placeholder='Type your message'></textarea>
+                  <textarea className='border-2 rounded-lg border-gray-500 p-3' rows='6' placeholder='Type your message' required></textarea>
                   </div>
                   <button className=' w-full p-3 bg-blue-500 text-lg text-white'>Send Message</button>
                  </form>

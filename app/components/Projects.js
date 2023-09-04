@@ -4,16 +4,16 @@ import Project1 from '../../public/assets/portfolio1.jpg'
 import Project2 from '../../public/assets/portfolio2.jpg'
 import Project3 from '../../public/assets/portfolio3.jpg'
 import Project4 from '../../public/assets/portfolio4.jpg'
-
-
-
 import  ProjectItem  from './ProjectItem.js'
 
+
+
 const Projects = () => {
+
   return (
     <div className=' w-full' id='projects'>
         <div className=' max-w-[1240px] mx-auto px-2 py-16'>
-            <p className=' text-xl tracking-widest uppercase text-blue-400'>Projects</p>
+            <p className=' text-2xl tracking-widest uppercase text-blue-500'>Projects</p>
             <h2 className=' py-4'>What I've Built</h2>
             <div className=' grid md:grid-cols-2 gap-8'>
 
@@ -37,10 +37,6 @@ const Projects = () => {
             backgroundImg={Project4}
             projectUrl='/portfolio1'
             />
-  
-    
-          
-         
             </div>
         </div>
     </div>

@@ -87,9 +87,6 @@ const Navbar = () => {
                  className=' p-3 cursor-pointer bg-slate-400 rounded-xl hover:scale-105 hover:ease-in duration-300 hover:text-white'>
                   <AiOutlineGithub />
                  </a>
-                 <a href='' className=' p-3 cursor-pointer bg-slate-400 rounded-xl hover:scale-105 hover:ease-in duration-300 hover:text-white'>
-                  <AiOutlineMail />
-                 </a>
                  </div>
               </div>
              </div>
